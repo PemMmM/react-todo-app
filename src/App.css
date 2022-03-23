@@ -18,7 +18,7 @@ form {
   min-height: 20vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 form input,
 form button {
@@ -40,7 +40,7 @@ form button:hover {
 }
 .todo-container {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   border-radius: 10px;
 }
@@ -141,7 +141,7 @@ select {
   top: 0;
   right: 0;
   padding: 1rem;
-  background: #dd4e7e;;
+  background: #dd4e7e;
   cursor: pointer;
   pointer-events: none;
 }
